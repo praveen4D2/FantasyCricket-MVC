@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C67AFCE223F546290027AA2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67AFCE123F546290027AA2E /* AppDelegate.swift */; };
+		C67AFCE423F546290027AA2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67AFCE323F546290027AA2E /* SceneDelegate.swift */; };
+		C67AFCE623F546290027AA2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67AFCE523F546290027AA2E /* ViewController.swift */; };
+		C67AFCE923F546290027AA2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67AFCE723F546290027AA2E /* Main.storyboard */; };
+		C67AFCEB23F5462F0027AA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67AFCEA23F5462F0027AA2E /* Assets.xcassets */; };
+		C67AFCEE23F5462F0027AA2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67AFCEC23F5462F0027AA2E /* LaunchScreen.storyboard */; };
+		C67AFCF923F5462F0027AA2E /* fantasyCricket_MVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67AFCF823F5462F0027AA2E /* fantasyCricket_MVCTests.swift */; };
+		C67AFD0423F5462F0027AA2E /* fantasyCricket_MVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67AFD0323F5462F0027AA2E /* fantasyCricket_MVCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C67AFCF523F5462F0027AA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C67AFCD623F546290027AA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67AFCDD23F546290027AA2E;
+			remoteInfo = fantasyCricket_MVC;
+		};
+		C67AFD0023F5462F0027AA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C67AFCD623F546290027AA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67AFCDD23F546290027AA2E;
+			remoteInfo = fantasyCricket_MVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C67AFCDE23F546290027AA2E /* fantasyCricket_MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fantasyCricket_MVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67AFCE123F546290027AA2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C67AFCE323F546290027AA2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C67AFCE523F546290027AA2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C67AFCE823F546290027AA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C67AFCEA23F5462F0027AA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C67AFCED23F5462F0027AA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C67AFCEF23F5462F0027AA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67AFCF423F5462F0027AA2E /* fantasyCricket_MVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fantasyCricket_MVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67AFCF823F5462F0027AA2E /* fantasyCricket_MVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fantasyCricket_MVCTests.swift; sourceTree = "<group>"; };
+		C67AFCFA23F5462F0027AA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67AFCFF23F5462F0027AA2E /* fantasyCricket_MVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fantasyCricket_MVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67AFD0323F5462F0027AA2E /* fantasyCricket_MVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fantasyCricket_MVCUITests.swift; sourceTree = "<group>"; };
+		C67AFD0523F5462F0027AA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C67AFCDB23F546290027AA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67AFCF123F5462F0027AA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67AFCFC23F5462F0027AA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C67AFCD523F546290027AA2E = {
+			isa = PBXGroup;
+			children = (
+				C67AFCE023F546290027AA2E /* fantasyCricket_MVC */,
+				C67AFCF723F5462F0027AA2E /* fantasyCricket_MVCTests */,
+				C67AFD0223F5462F0027AA2E /* fantasyCricket_MVCUITests */,
+				C67AFCDF23F546290027AA2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C67AFCDF23F546290027AA2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C67AFCDE23F546290027AA2E /* fantasyCricket_MVC.app */,
+				C67AFCF423F5462F0027AA2E /* fantasyCricket_MVCTests.xctest */,
+				C67AFCFF23F5462F0027AA2E /* fantasyCricket_MVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C67AFCE023F546290027AA2E /* fantasyCricket_MVC */ = {
+			isa = PBXGroup;
+			children = (
+				C67AFCE123F546290027AA2E /* AppDelegate.swift */,
+				C67AFCE323F546290027AA2E /* SceneDelegate.swift */,
+				C67AFCE523F546290027AA2E /* ViewController.swift */,
+				C67AFCE723F546290027AA2E /* Main.storyboard */,
+				C67AFCEA23F5462F0027AA2E /* Assets.xcassets */,
+				C67AFCEC23F5462F0027AA2E /* LaunchScreen.storyboard */,
+				C67AFCEF23F5462F0027AA2E /* Info.plist */,
+			);
+			path = fantasyCricket_MVC;
+			sourceTree = "<group>";
+		};
+		C67AFCF723F5462F0027AA2E /* fantasyCricket_MVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				C67AFCF823F5462F0027AA2E /* fantasyCricket_MVCTests.swift */,
+				C67AFCFA23F5462F0027AA2E /* Info.plist */,
+			);
+			path = fantasyCricket_MVCTests;
+			sourceTree = "<group>";
+		};
+		C67AFD0223F5462F0027AA2E /* fantasyCricket_MVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C67AFD0323F5462F0027AA2E /* fantasyCricket_MVCUITests.swift */,
+				C67AFD0523F5462F0027AA2E /* Info.plist */,
+			);
+			path = fantasyCricket_MVCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C67AFCDD23F546290027AA2E /* fantasyCricket_MVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67AFD0823F5462F0027AA2E /* Build configuration list for PBXNativeTarget "fantasyCricket_MVC" */;
+			buildPhases = (
+				C67AFCDA23F546290027AA2E /* Sources */,
+				C67AFCDB23F546290027AA2E /* Frameworks */,
+				C67AFCDC23F546290027AA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fantasyCricket_MVC;
+			productName = fantasyCricket_MVC;
+			productReference = C67AFCDE23F546290027AA2E /* fantasyCricket_MVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C67AFCF323F5462F0027AA2E /* fantasyCricket_MVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67AFD0B23F5462F0027AA2E /* Build configuration list for PBXNativeTarget "fantasyCricket_MVCTests" */;
+			buildPhases = (
+				C67AFCF023F5462F0027AA2E /* Sources */,
+				C67AFCF123F5462F0027AA2E /* Frameworks */,
+				C67AFCF223F5462F0027AA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C67AFCF623F5462F0027AA2E /* PBXTargetDependency */,
+			);
+			name = fantasyCricket_MVCTests;
+			productName = fantasyCricket_MVCTests;
+			productReference = C67AFCF423F5462F0027AA2E /* fantasyCricket_MVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C67AFCFE23F5462F0027AA2E /* fantasyCricket_MVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67AFD0E23F5462F0027AA2E /* Build configuration list for PBXNativeTarget "fantasyCricket_MVCUITests" */;
+			buildPhases = (
+				C67AFCFB23F5462F0027AA2E /* Sources */,
+				C67AFCFC23F5462F0027AA2E /* Frameworks */,
+				C67AFCFD23F5462F0027AA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C67AFD0123F5462F0027AA2E /* PBXTargetDependency */,
+			);
+			name = fantasyCricket_MVCUITests;
+			productName = fantasyCricket_MVCUITests;
+			productReference = C67AFCFF23F5462F0027AA2E /* fantasyCricket_MVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C67AFCD623F546290027AA2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = CrazyTricks;
+				TargetAttributes = {
+					C67AFCDD23F546290027AA2E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C67AFCF323F5462F0027AA2E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C67AFCDD23F546290027AA2E;
+					};
+					C67AFCFE23F5462F0027AA2E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C67AFCDD23F546290027AA2E;
+					};
+				};
+			};
+			buildConfigurationList = C67AFCD923F546290027AA2E /* Build configuration list for PBXProject "fantasyCricket_MVC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C67AFCD523F546290027AA2E;
+			productRefGroup = C67AFCDF23F546290027AA2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C67AFCDD23F546290027AA2E /* fantasyCricket_MVC */,
+				C67AFCF323F5462F0027AA2E /* fantasyCricket_MVCTests */,
+				C67AFCFE23F5462F0027AA2E /* fantasyCricket_MVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C67AFCDC23F546290027AA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67AFCEE23F5462F0027AA2E /* LaunchScreen.storyboard in Resources */,
+				C67AFCEB23F5462F0027AA2E /* Assets.xcassets in Resources */,
+				C67AFCE923F546290027AA2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67AFCF223F5462F0027AA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67AFCFD23F5462F0027AA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C67AFCDA23F546290027AA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67AFCE623F546290027AA2E /* ViewController.swift in Sources */,
+				C67AFCE223F546290027AA2E /* AppDelegate.swift in Sources */,
+				C67AFCE423F546290027AA2E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67AFCF023F5462F0027AA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67AFCF923F5462F0027AA2E /* fantasyCricket_MVCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67AFCFB23F5462F0027AA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67AFD0423F5462F0027AA2E /* fantasyCricket_MVCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C67AFCF623F5462F0027AA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67AFCDD23F546290027AA2E /* fantasyCricket_MVC */;
+			targetProxy = C67AFCF523F5462F0027AA2E /* PBXContainerItemProxy */;
+		};
+		C67AFD0123F5462F0027AA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67AFCDD23F546290027AA2E /* fantasyCricket_MVC */;
+			targetProxy = C67AFD0023F5462F0027AA2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C67AFCE723F546290027AA2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C67AFCE823F546290027AA2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C67AFCEC23F5462F0027AA2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C67AFCED23F5462F0027AA2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C67AFD0623F5462F0027AA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C67AFD0723F5462F0027AA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C67AFD0923F5462F0027AA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L7MDNZGGA;
+				INFOPLIST_FILE = fantasyCricket_MVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CarazyDev.fantasyCricket-MVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C67AFD0A23F5462F0027AA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L7MDNZGGA;
+				INFOPLIST_FILE = fantasyCricket_MVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CarazyDev.fantasyCricket-MVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C67AFD0C23F5462F0027AA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L7MDNZGGA;
+				INFOPLIST_FILE = fantasyCricket_MVCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CarazyDev.fantasyCricket-MVCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fantasyCricket_MVC.app/fantasyCricket_MVC";
+			};
+			name = Debug;
+		};
+		C67AFD0D23F5462F0027AA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L7MDNZGGA;
+				INFOPLIST_FILE = fantasyCricket_MVCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CarazyDev.fantasyCricket-MVCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fantasyCricket_MVC.app/fantasyCricket_MVC";
+			};
+			name = Release;
+		};
+		C67AFD0F23F5462F0027AA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L7MDNZGGA;
+				INFOPLIST_FILE = fantasyCricket_MVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CarazyDev.fantasyCricket-MVCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fantasyCricket_MVC;
+			};
+			name = Debug;
+		};
+		C67AFD1023F5462F0027AA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L7MDNZGGA;
+				INFOPLIST_FILE = fantasyCricket_MVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CarazyDev.fantasyCricket-MVCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fantasyCricket_MVC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C67AFCD923F546290027AA2E /* Build configuration list for PBXProject "fantasyCricket_MVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67AFD0623F5462F0027AA2E /* Debug */,
+				C67AFD0723F5462F0027AA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67AFD0823F5462F0027AA2E /* Build configuration list for PBXNativeTarget "fantasyCricket_MVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67AFD0923F5462F0027AA2E /* Debug */,
+				C67AFD0A23F5462F0027AA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67AFD0B23F5462F0027AA2E /* Build configuration list for PBXNativeTarget "fantasyCricket_MVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67AFD0C23F5462F0027AA2E /* Debug */,
+				C67AFD0D23F5462F0027AA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67AFD0E23F5462F0027AA2E /* Build configuration list for PBXNativeTarget "fantasyCricket_MVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67AFD0F23F5462F0027AA2E /* Debug */,
+				C67AFD1023F5462F0027AA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C67AFCD623F546290027AA2E /* Project object */;
+}
