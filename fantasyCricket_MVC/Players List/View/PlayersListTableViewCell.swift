@@ -8,17 +8,22 @@
 
 import UIKit
 
-class PlayersListTableViewCell: UITableViewCell {
+class PlayersListTableViewCell: TableViewCell {
 
+    /// MARK : - XIB Outlets
+    @IBOutlet weak var lblPlayerName: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
     
+    override func configure(_ item: Any?) {
+        guard let player = item as? Player else { return  }
+        self.lblPlayerName.text = player.name
+    }
 }
