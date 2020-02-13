@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PlayersListViewController.swift
 //  fantasyCricket_MVC
 //
 //  Created by Adaps on 13/02/20.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PlayersListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
-
 }
-
