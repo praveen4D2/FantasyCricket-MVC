@@ -16,6 +16,7 @@ class PlayersListViewController: UIViewController {
     /// MARK : - Custom Outlets
     var team:TeamCellModel?
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupTableView()
